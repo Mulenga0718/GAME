@@ -48,7 +48,7 @@ public class Sdoku {
 		System.out.println("축하드립니다! 모두 맞추셨습니다.");
 
 		long end = System.currentTimeMillis();
-		System.out.println("경과시간 : " + (end - start) / 1000.0 + "초");
+		System.out.println("경과시간 : " + Math.round((end - start) / 10.0)/100.00 + "초");
 	}// 실행될 게임
 
 	public static void main(String[] args) {

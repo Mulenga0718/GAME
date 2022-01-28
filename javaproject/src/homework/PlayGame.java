@@ -15,10 +15,10 @@ public class PlayGame {
 		
 	
 		Scanner sc = new Scanner(System.in);
-		System.out.println("미니게임 천국에 오신 걸 환영합니다.");
+		System.out.println("🎮미니게임 천국에 오신 걸 환영합니다.");
 		int choice;
 		do {
-			System.out.println("게임을 선택해주세요. 1.WHAT IS 2.학교앞 가위바위보 3.스도쿠");
+			System.out.println("게임을 선택해주세요. 1.WHAT IS ❓  2.학교앞 가위바위보🎰 3.스도쿠🧩 ");
 			choice = sc.nextInt();
 			switch (choice) {
 			case 1:
