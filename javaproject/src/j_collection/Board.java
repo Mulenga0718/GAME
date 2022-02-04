@@ -1,14 +1,20 @@
 package j_collection;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 
 import e_oop1.ScanUtil;
 
+
+
 public class Board {
 	
 	public static void main(String[] args) {
+		LocalDate now = LocalDate.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+		String formatedNow = now.format(formatter);
 		/*
 		 * ArrayList와 HashMap을 사용해 게시판 테이블을 만들고,
 		 * 조회, 등록, 수정, 삭제가 가능한 게시판을 만들어주세요. 
@@ -24,7 +30,7 @@ public class Board {
 		board.put("제목","연습입니다.");
 		board.put("내용", "연습내용입니다.");
 		board.put("작성자", "나");
-		board.put("작성일", new Date());
+		board.put("작성일", "2022/01/28");
 		boardTable.add(board);
 		
 		board = new HashMap<String, Object>();
@@ -32,7 +38,7 @@ public class Board {
 		board.put("제목","연습입니다.1");
 		board.put("내용", "연습내용입니다.1");
 		board.put("작성자", "나1");
-		board.put("작성일", new Date());
+		board.put("작성일", "2022/01/28");
 		boardTable.add(board);
 		
 		board = new HashMap<String, Object>();
@@ -40,7 +46,7 @@ public class Board {
 		board.put("제목","연습입니다.2");
 		board.put("내용", "연습내용입니다.2");
 		board.put("작성자", "나2");
-		board.put("작성일", new Date());
+		board.put("작성일", "2022/01/29");
 		boardTable.add(board);
 		
 		Controller con = new Controller();
@@ -52,8 +58,6 @@ public class Board {
 		}while(choice ==1);
 	}
 }
-		
-		
 		
 	    
 		
