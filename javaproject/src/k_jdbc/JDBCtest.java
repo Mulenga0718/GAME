@@ -18,6 +18,7 @@ public class JDBCtest {
 		
 		List<Map<String, Object>> list = JDBCUtil.selectList(sql, param);
 		System.out.println(list);
+		
 	}
 
 }
