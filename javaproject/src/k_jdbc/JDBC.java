@@ -25,7 +25,6 @@ public class JDBC {
 		String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		String user = "LJG93";
 		String password = "java";
-		
 		Connection con = null;
 		PreparedStatement ps = null;
 		ResultSet rs = null;
