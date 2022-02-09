@@ -23,8 +23,7 @@ public class IdTester {
 		int max=Id.getMaxId();
 		System.out.println(max);
 		System.out.println(max+Id.getStep());
-		
-		
+
 	}
 
 }

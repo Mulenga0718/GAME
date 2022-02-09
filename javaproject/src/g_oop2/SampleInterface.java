@@ -5,7 +5,7 @@ public interface SampleInterface {
 	//인터페이스의 모든 멤버변수는 public static final 제어자를 사용해야한다. 
 	public static final int num1 = 1;
 
-	//모든 멤버변수의 제어자가 같기 떄문에 생략이 가능하다. 
+	//모든 멤버변수의 제어자가 같기 때문에 생략이 가능하다. 
 	int num2 =2;
 	
 	//인터페이스의 모든 메서드는 public abstract 제어자를 사용해야한다.

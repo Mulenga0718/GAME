@@ -9,16 +9,8 @@ import java.util.ArrayList;
 import java.util.DuplicateFormatFlagsException;
 import java.util.Map;
 
-
-
 public class Login {
-	String url = "jdbc:oracle:thin:@localhost:1521:xe";
-	String user = "LJG93";
-	String password = "java";
-	Connection con = null;
-	PreparedStatement ps = null;
-	ResultSet rs = null;
-	
+
 public static void main(String[] args) {
 		
 			new Login().start();

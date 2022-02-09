@@ -34,11 +34,6 @@ public class VariableInit {
  }
  
  public static void main(String[] args) {
-
-	
-	 LocalDateTime endDateTime = LocalDateTime.of(2022,  8, 22, 18, 0, 0);
-	 double remainDay = ChronoUnit.DAYS.between(LocalDate.now(), endDateTime);
-	 System.out.println(Math.round((remainDay*100.0/232.0))/10.0+"%");
 	
 	 Init i1 = new Init();
 	i1.a = 10;

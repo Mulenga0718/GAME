@@ -35,7 +35,7 @@ public class JDBCBoard {
 		Map<String, Object> board = new HashMap<String, Object>();
 			
 			while (true) {
-				String sql = "SELECT * FROM T_BOARD";
+				String sql = "SELECT * FROM T_BOARD ORDER BY 1";
 				boardTable = (ArrayList<Map<String, Object>>)JDBCUtil.selectList(sql);
 				System.out.println("           게시판 창");
 				System.out.println("=======================================");
