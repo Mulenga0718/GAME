@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PlayGame {
 	static Whois whois = new Whois();
 	static FingerFlashing fingerFlashing = new FingerFlashing();
-
+	static Sdoku sdoku = new Sdoku();
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
@@ -21,7 +21,8 @@ public class PlayGame {
 			case 2:
 				fingerFlashing.main(args);
 				break;
-
+			case 3:
+				sdoku.main(args);
 			}
 
 		} while (choice != 0);
